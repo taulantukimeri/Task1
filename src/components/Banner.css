@@ -1,0 +1,56 @@
+.banner{
+padding-top: 50px;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.comps{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: max(200px, 50vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: max(200px,25vw);
+    height: max(150px,15vw);
+    padding: 5px;
+    gap: 20px;
+}
+
+.icon{
+    width: max(25px, 5vw);
+    height: max(25px, 5vw);
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: max(10px, 1vw);
+}
+
+.text{
+    font-size: max(13 px, 1vw);
+    text-align: start;
+    
+}
+
+@media (max-width:535px){
+    .card{
+        width: 80%;
+    }
+}
+
+
+
+
+
